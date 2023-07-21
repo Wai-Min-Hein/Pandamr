@@ -51,7 +51,8 @@ export default {
         'hbg':'#defa6b',
         'blackistgrey':'#1f1e1e',
         'blogText':'#353535',
-        'blogdetailheafer2':'#230B34'
+        'blogdetailheafer2':'#230B34',
+        'link' : '#3868c8'
       },
       keyframes:{
         'open-menu' : {
