@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <section className="w-full flex items-center justify-between sm:justify-around p-3">
+      <section className="w-full flex items-center justify-between px-[1rem] xl:px-[10rem] py-2">
         <div className="m-3">
           <Link to={"/"}>
             <img
@@ -28,21 +28,21 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="lg:w-[40rem] flex items-center lg:justify-between">
+        <div className="flex-1 justify-end flex items-center gap-8">
           <nav className="hidden lg:w-[20rem] 2xl:w-[30rem] lg:flex gap-4 ">
             <ul className="w-full uppercase flex justify-evenly gap-4 font-regular">
-              <li>
+              <li className="text-[.95rem] font-normal medium">
                 <Link to={"/solution"}>Solutions</Link>
               </li>
-              <li>
+              <li className="text-[.95rem] font-normal medium">
                 <Link to={"contactus"}>Contact Us</Link>
               </li>
-              <li>
+              <li className="text-[.95rem] font-normal medium">
                 <Link to={"blog/page/1"}>Blog</Link>
               </li>
             </ul>
           </nav>
-          <div className="w-56 flex justify-between items-center lg:justify-between gap-4">
+          <div className="w-56 flex justify-end items-center  gap-4">
             <button
               onClick={toggleMenu}
               id="menuBtn"
@@ -50,7 +50,7 @@ const Navbar = () => {
             >
               <HiMenu />
             </button>
-            <button className="border border-black rounded-full ml-5 px-6 py-1 hover:bg-black hover:text-gray-100 font-semibold">
+            <button className="border border-black rounded-full px-8 py-2 hover:bg-black hover:text-gray-100 font-semibold">
               <Link to={"/login"}>Login</Link>
             </button>
 
@@ -132,6 +132,8 @@ const Navbar = () => {
           </div>
         </div>
       </section>
+
+
       <section
         id="mobileMenu"
         className="absolute top-0 bg-gray-200 w-full text-xl  flex-col justify-center origin-top animate-open-menu hidden z-10"

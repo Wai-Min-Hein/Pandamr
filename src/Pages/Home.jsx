@@ -34,14 +34,14 @@ const Home = () => {
   return (
     <div className=" mt-16 h-screen">
       <div className=" flex items-center justify-center">
-        <div className=" flex-col  items-center justify-center sm:w-4/5  ">
+        <div className=" flex-col  items-center justify-center xl:w-4/5 px-[1rem] xl:px-0  ">
           <p className=" text-center font-custom text-4xl sm:text-5xl tracking-wide">
             THE ULTIMATE METAVERSE
           </p>
           <p className=" text-center font-custom text-4xl sm:text-5xl tracking-wide mt-6  mb-2">
             FOR BUSINESSES
           </p>
-          <p className=" text-center text-xl sm:text-2xl text-gray-700 tracking-wider font-semiBold">
+          <p className=" text-center text-xl sm:text-2xl text-gray-700 tracking-wider my-4 bmd:my-0 font-semiBold">
             Your metaverse development company
           </p>
           <img
@@ -49,68 +49,68 @@ const Home = () => {
             alt=""
           />
           <div className=" text-center ">
-            <button className="  hover:bg-hbg text-center bg-pg  rounded-large mt-10  px-20 py-3">
-              <span className="font-akiraBold">Let's talk</span>
+            <button className="  hover:bg-hbg text-center bg-pg  rounded-large mt-14  px-16 py-3">
+              <span className="font-akiraBold text-xs">Let's talk</span>
             </button>
           </div>
           <p className="text-center  font-akiraBold text-[29px] mt-16 lin tracking-wide">
             UNLIMITED OPPORTUNITIES IN THE METAVERSE
           </p>
-          <p className=" text-center text-xl font-light mt-10 text-gray-700 tracking-wider">
+          <p className=" text-center text-lg font-light mt-8 text-gray-800 tracking-wide">
             We guide businesses toward creating value in the digital space.
             Explore the benefits of expanding your industry into 3D
           </p>
         </div>
       </div>
-      <div className=" mt-20 sm:mt-32 flex justify-center items-center bg-black  ">
-        <div className="sm:flex justify-around sm:justify-center items-center w-full sm:w-4/5">
+      <div className=" mt-10 sm:mt-16 flex justify-center items-center bg-black  ">
+        <div className="md:flex justify-around sm:justify-center items-center w-full xl:w-4/5 px-[1rem] xl:px-0">
           <div className="  ">
             <div className="m-9">
               <p className="  text-center  font-akiraBold text-white text-4xl font-extrabold">
                 Business
               </p>
             </div>
-            <div className="px-2 py-16 m-7 sm:h-[350px] rounded-large text-sm font-light  bg-blackistgrey">
-              <div>
+            <div className="px-2 py-16 mx-3 sm:h-[350px] rounded-large text-sm font-light  bg-blackistgrey">
+              <div className="my-auto">
                 <p className=" text-white">
-                  <TiTick className=" inline   text-lime-600 text-4xl" />
+                  <TiTick className=" inline   text-[#e5ff49] text-3xl" />
                   &nbsp; Virtual 3D offices and spaces for your corporate
                   presence in the metaverse to lead innovation in your industry.
                 </p>
                 <p className=" text-white mt-6 mb-6">
-                  <TiTick className=" inline   text-lime-600 text-4xl" />
+                  <TiTick className=" inline   text-[#e5ff49] text-3xl" />
                   &nbsp; Step-by-step guidance guaranteed for you to adapt to
                   the Metaverse environment under your business model.
                 </p>
                 <p className=" text-white">
-                  <TiTick className=" inline   text-lime-600 text-4xl" />
+                  <TiTick className=" inline   text-[#e5ff49] text-3xl" />
                   &nbsp; Unique functionality and features for your business
                   needs.
                 </p>
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="py-10">
             <div className="m-9">
               <p className=" text-center text-white  font-akiraBold text-4xl font-extrabold">
                 Education
               </p>
             </div>
-            <div className="m-7 sm:h-[350px] px-2 py-16  rounded-large font-light text-sm bg-blackistgrey">
+            <div className="mx-3 sm:h-[350px] px-2 py-16  rounded-large font-light text-sm bg-blackistgrey">
               <div className="">
                 <p className="  text-white">
-                  <TiTick className=" inline   text-lime-600 text-4xl" /> &nbsp;
+                  <TiTick className="inline   text-[#e5ff49] text-3xl" /> &nbsp;
                   Transfer online learning sessions into an immersive 3D
                   environment. Engage students and educators with various
                   virtual tools.
                 </p>
                 <p className=" mt-6 mb-6 text-white">
-                  <TiTick className=" inline   text-lime-600 text-4xl" />
+                  <TiTick className="inline   text-[#e5ff49] text-3xl" />
                   &nbsp; Full class immersion using virtual classrooms, lecture
                   halls, and other spaces for comfortable learning.
                 </p>
                 <p className=" text-white">
-                  <TiTick className=" inline   text-lime-600 text-4xl" />
+                  <TiTick className="inline   text-[#e5ff49] text-3xl" />
                   &nbsp; Tools for teachers and instrucors to manage the class
                   effectively in virtual spaces created specifically for
                   learning.
@@ -122,8 +122,8 @@ const Home = () => {
       </div>
       <div className="  my-14 ">
         <div className="flex items-center justify-center ">
-          <div className=" flex-col  items-center justify-center  w-4/5  ">
-            <p className=" text-center  font-akiraBold text-3xl font-extrabold lin tracking-wide ">
+          <div className=" flex-col  items-center justify-center  xl:w-4/5 px-[1rem] xl:px-0  ">
+            <p className=" text-center  font-akiraBold text-3xl font-extrabold lin tracking-wide  leading-tight ">
               Explore the Meta-spaces created by professionals for our business
               community
             </p>
@@ -181,14 +181,14 @@ const Home = () => {
         </div>
       </div>
       <div className=" flex-col items-center justify-center bg-black  ">
-        <div className=" pt-20 sm:pt-8  ">
-          <div className=" text-center  font-akiraBold text-gray-50 font-extrabold text-4xl sm:text-5xl">
+        <div className=" pt-20 sm:pt-10  ">
+          <div className=" text-center  font-akiraBold text-gray-50 font-extrabold text-3xl sm:text-5xl">
             METACOMMUNITY
           </div>
-          <div className=" text-lg  font-regular sm:text-xl text-center text-gray-50  tracking-widest my-4">
+          <div className=" text-lg  font-regular sm:text-xl text-center text-gray-50  tracking-widest my-5">
             Join our community built around so many bright minds
           </div>
-          <div className="py-8 gap-36 flex items-center justify-center text-gray-50">
+          <div className="py-6 gap-36 flex items-center justify-center text-gray-50 px-[2rem]">
             <BsDiscord className=" text-5xl" />
             <BsTwitter className=" text-5xl" />
             <FaTelegramPlane className=" text-5xl" />
@@ -206,21 +206,21 @@ const Home = () => {
         vierPort={{ once: true }}
         className=" mt-10 flex items-center justify-center"
       >
-        <div className=" sm:flex  gap-28 items-center justify-center  w-4/5  ">
-          <div className=" sm:w-2/4">
+        <div className=" sm:flex  gap-28 items-center justify-center  xl:w-4/5  px-[1rem] xl:px-0">
+          <div className=" xl:w-2/4 px-[1rem] xl:px-0">
             <div>
-              <p className="  text-lg font-light">
+              <p className="  text-[.925rem] font-light">
                 Before you jump into corporate meta-spaces, think of your
                 virtual self in the metaverse: your Avatar.
               </p>
               <p className=" my-6 text-3xl  font-thin">Create one first!</p>
-              <p className="  text-lg font-light">
+              <p className="  text-[.925rem] font-light">
                 Modify every aspect of the avatar and design a fully individual
                 and realistic representation of yourself.
               </p>
             </div>
             <div>
-              <button className=" hover:border-none font-akiraBold  border border-pg  border-solid   bg-pg  mt-8 rounded-large px-20 py-4 bg">
+              <button className=" hover:border-none font-akiraBold  border border-pg  border-solid   bg-pg  mt-8 rounded-large px-10 py-4 bg text-xs">
                 Create an avatar
               </button>
             </div>
@@ -242,7 +242,7 @@ const Home = () => {
         
       </motion.div>
       <div className=" mb-6  mt-20 flex  gap-28 items-center justify-center  ">
-        <p className=" text-center font-ak font-akiraBold text-5xl lin tracking-wide ">
+        <p className=" text-center font-ak font-akiraBold text-3xl lin tracking-[.01rem] ">
           THESE PEOPLE ARE IN!
         </p>
       </div>
@@ -256,22 +256,22 @@ const Home = () => {
         </div>
       </div>
       <div className=" my-10 flex items-center justify-center">
-        <div className=" flex-col  items-center justify-center  w-4/5  ">
-          <p className=" text-center font-regular text-xl sm:text-5xl lin tracking-wide ">
+        <div className=" flex-col  items-center justify-center  lg:w-4/5 xl:w-4/5 px-[1rem] lg:px-0  ">
+          <p className=" text-center font-regular text-xl sm:text-2xl lin tracking-wide ">
             Want to learn more about business implementations of Metaverse?
           </p>
-          <p className="  text-center font-regular text-xl sm:text-5xl tracking-wide mt-6  mb-10">
+          <p className="  text-center font-regular text-xl sm:text-2xl tracking-wide mt-1 xl:mt-6  mb-10">
             Searching for ideas specifically for your business needs?
           </p>
-          <p className=" text-center font-light text-sm sm:text-2xl text-gray-700 tracking-wider">
+          <p className=" text-center font-light text-sm sm:text-sm text-gray-900 tracking-wider">
             Tell us more about your business model and we will come up with a
             metaverse strategy that guarantees additional value for your company
             and team.
           </p>
 
           <div className=" text-center ">
-            <button className="  hover:bg-hbg text-center bg-pg  rounded-large mt-10  px-20 py-3">
-              <span className="font- font-akiraBold">Submit a request</span>{" "}
+            <button className="  hover:bg-hbg text-center bg-pg  rounded-large mt-10  px-10 py-3">
+              <span className="font- font-akiraBold text-xs">Submit a request</span>{" "}
             </button>
           </div>
         </div>
