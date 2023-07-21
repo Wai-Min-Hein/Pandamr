@@ -4,13 +4,13 @@ import Footer from '../Footer'
 const ContactUs = () => {
   return (
    <div>
-     <div className=' grid grid-cols-1 lg:grid-cols-2 mx-10'>
+     <div className=' grid grid-cols-1 lg:grid-cols-2 mx-10 mt-12'>
       <div className='flex flex-col items-center gap-10'> 
         <h1 className='text-4xl font-bold'>Hi, how can we help?</h1>
-        <img className="block w-4/5 mx-auto" src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/1008-travelv13.png?v=1665150506" alt="1008-travelv13.png"></img>
+        <img className="block w-1/2 mx-auto" src="https://static.pandamr.com/fs/userFiles/pandamrv2/images/1008-travelv13.png?v=1665150506" alt="1008-travelv13.png"></img>
       </div>
       <div>
-        <form action="" className='mx:5 md:mx-10 my-5 p-5 md:p-10 flex flex-col gap-5'>
+        <form action="" className='mx-5 md:mx-10  px-5 md:px-10 flex flex-col gap-5 w-full md:w-4/5'>
             <div className="flex flex-col gap-3">
                 <label className='f font-input font-medium' htmlFor="name">Your Name*</label>
                 <input type="text" className='p-1 border font-input border-gray-400 focus:outline-none focus:ring-0' id='name' placeholder='Type your name'/>
@@ -27,7 +27,7 @@ const ContactUs = () => {
                 <label className='f font-input font-medium' htmlFor="message">Message*</label>
                 <textarea className='p-1 border font-input border-gray-400 focus:outline-none focus:ring-0 ' name="message" id="message" cols="20" rows="7"></textarea>
             </div>
-            <button type='submit' className='p-3 bg-[#87c040] text-white rounded-lg w-24 '>Submit</button>
+            <button type='submit' className='py-3 px-1 bg-[#87c040] text-white rounded-lg w-24 '>Submit</button>
         </form>
       </div>
     </div>

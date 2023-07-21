@@ -5,8 +5,8 @@
   src: url('../Font/Akira-Expanded-Demo.otf') ;
 }
 @font-face {
-  font-family: "Akira Bold";
-  src: url('../Font/Akira\ Expanded\ Bold.otf') ;
+  font-family: "AkiraBold";
+  src: url('../Font/Akira-Expanded-Bold.otf') ;
 }
 @font-face {
   font-family: "Light";

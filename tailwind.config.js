@@ -37,7 +37,7 @@ export default {
       fontFamily:{
                   'mainf':['Montagu Slab', 'serif'],
                     'custom': ['Akira','san-serif'],
-                    'akiraBold': ['Akira Bold','san-serif'],
+                    'akiraBold': ['AkiraBold','san-serif'],
                     'light': ['Light','san-serif'],
                     'regular': ['Regular','san-serif'],
                     'bold': ['Bold','san-serif'],
